@@ -1,0 +1,1 @@
+import{L as i,ae as t,F as r}from"./index-0d19177e.js";import{p as n,D as a}from"./BaseContext-b2603304-d1129fb6.js";function l(){return i.jsx(t,{multiline:!0,width:220,withArrow:!0,label:n._({id:"3TnJRX"}),children:i.jsx(r,{color:"teal",variant:"outline",children:i.jsx(a,{id:"etqXdW"})})})}export{l as n};

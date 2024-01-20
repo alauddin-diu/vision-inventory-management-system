@@ -1,0 +1,1 @@
+import{L as s,I as n}from"./index-0d19177e.js";import{d as a}from"./globalStyle-ed485bee-3719433e.js";function o({children:r}){const{classes:t}=a();return s.jsx(n,{className:t.signText,variant:"gradient",children:r})}export{o};

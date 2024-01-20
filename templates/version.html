@@ -1,0 +1,13 @@
+# Version Information:{% load vision_ims_extras %}
+Vision_IMS-Version: {% Vision_IMS_version %}
+Django Version: {% django_version %}
+{% Vision_IMS_commit_hash as hash %}{% if hash %}Commit Hash: {{ hash }}{% endif %}
+{% Vision_IMS_commit_date as commit_date %}{% if commit_date %}Commit Date: {% render_date commit_date %}{% endif %}
+{% Vision_IMS_branch as branch %}{% if branch %}Commit Branch: {{ branch }}{% endif %}
+Database: {% Vision_IMS_db_engine %}
+Debug-Mode: {% Vision_IMS_in_debug_mode %}
+Deployed using Docker: {% Vision_IMS_docker_mode %}
+Platform: {% Vision_IMS_platform %}
+Installer: {% Vision_IMS_installer %}
+{% Vision_IMS_target as target %}{% if target %}Target: {{ target }}{% endif %}
+Active plugins: {% plugins_info %}

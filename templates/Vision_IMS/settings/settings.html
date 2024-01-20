@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load static %}
+{% load vision_ims_extras %}
+{% load plugin_extras %}
+
+{% block breadcrumb_list %}
+{% endblock breadcrumb_list %}
+
+{% block page_title %}
+{% Vision_IMS_title %} | {% trans "Settings" %}
+{% endblock page_title %}
+
+{% block sidebar %}
+{% include "Vision_IMS/settings/sidebar.html" %}
+{% endblock sidebar %}
+
+{% block content %}
+
+{% include "Vision_IMS/settings/user.html" %}
+{% include "Vision_IMS/settings/user_settings.html" %}
+{% include "Vision_IMS/settings/user_display.html" %}
+{% include "Vision_IMS/settings/user_homepage.html" %}
+{% include "Vision_IMS/settings/user_search.html" %}
+{% include "Vision_IMS/settings/user_notifications.html" %}
+{% include "Vision_IMS/settings/user_reporting.html" %}
+
+{% if user.is_staff %}
+
+{% include "Vision_IMS/settings/global.html" %}
+{% include "Vision_IMS/settings/login.html" %}
+{% include "Vision_IMS/settings/barcode.html" %}
+{% include "Vision_IMS/settings/project_codes.html" %}
+{% include "Vision_IMS/settings/physical_units.html" %}
+{% include "Vision_IMS/settings/notifications.html" %}
+{% include "Vision_IMS/settings/label.html" %}
+{% include "Vision_IMS/settings/report.html" %}
+{% include "Vision_IMS/settings/part.html" %}
+{% include "Vision_IMS/settings/part_parameters.html" %}
+{% include "Vision_IMS/settings/part_stocktake.html" %}
+{% include "Vision_IMS/settings/category.html" %}
+{% include "Vision_IMS/settings/pricing.html" %}
+{% include "Vision_IMS/settings/stock.html" %}
+{% include "Vision_IMS/settings/build.html" %}
+{% include "Vision_IMS/settings/po.html" %}
+{% include "Vision_IMS/settings/so.html" %}
+{% include "Vision_IMS/settings/returns.html" %}
+
+{% include "Vision_IMS/settings/plugin.html" %}
+{% plugin_list as pl_list %}
+{% for plugin_key, plugin in pl_list.items %}
+    {% if plugin.registered_mixins %}
+        {% include "Vision_IMS/settings/plugin_settings.html" %}
+    {% endif %}
+{% endfor %}
+
+{% endif %}
+
+{% endblock content %}
+
+{% block js_load %}
+{{ block.super }}
+{% endblock js_load %}
+
+{% block js_ready %}
+{{ block.super }}
+
+{% include "Vision_IMS/settings/settings_js.html" %}
+
+{% if user.is_staff %}
+    {% include "Vision_IMS/settings/settings_staff_js.html" %}
+{% endif %}
+
+enableSidebar('settings');
+
+{% endblock js_ready %}

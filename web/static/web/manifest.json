@@ -1,0 +1,344 @@
+{
+  "_BaseContext-b2603304-d1129fb6.js": {
+    "dynamicImports": [
+      "assets/messages-756f421d.js",
+      "assets/messages-c6f93367.js",
+      "assets/messages-abfbc9b0.js",
+      "assets/messages-6b6489fb.js"
+    ],
+    "file": "assets/BaseContext-b2603304-d1129fb6.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_IconEdit-d5d0707d-e9613b1d.js": {
+    "file": "assets/IconEdit-d5d0707d-e9613b1d.js",
+    "imports": [
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_IconSearch-a226eee4-73f8e550.js": {
+    "file": "assets/IconSearch-a226eee4-73f8e550.js",
+    "imports": [
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_IconTrash-0f9cb02d-5e67fec3.js": {
+    "file": "assets/IconTrash-0f9cb02d-5e67fec3.js",
+    "imports": [
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_Vision_IMSTable-136a1ca9-ce527cb7.js": {
+    "file": "assets/Vision_IMSTable-136a1ca9-ce527cb7.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_IconSearch-a226eee4-73f8e550.js"
+    ]
+  },
+  "_LanguageSelect-22d9832f-b47202f9.js": {
+    "file": "assets/LanguageSelect-22d9832f-b47202f9.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_IconEdit-d5d0707d-e9613b1d.js"
+    ]
+  },
+  "_Placeholder-d8632411-711021b4.js": {
+    "file": "assets/Placeholder-d8632411-711021b4.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_StylishText-56caa9d1-838dbefd.js": {
+    "file": "assets/StylishText-56caa9d1-838dbefd.js",
+    "imports": [
+      "index.html",
+      "_globalStyle-ed485bee-3719433e.js"
+    ]
+  },
+  "_auth-94100680-dd86dcc7.js": {
+    "file": "assets/auth-94100680-dd86dcc7.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ]
+  },
+  "_globalStyle-ed485bee-3719433e.js": {
+    "file": "assets/globalStyle-ed485bee-3719433e.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_links-055e87fc-1389477c.js": {
+    "file": "assets/links-055e87fc-1389477c.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_notifications-507207d9-c05c5d70.js": {
+    "file": "assets/notifications-507207d9-c05c5d70.js",
+    "imports": [
+      "_BaseContext-b2603304-d1129fb6.js"
+    ]
+  },
+  "_use-form-5049279f-ad64b2d3.js": {
+    "file": "assets/use-form-5049279f-ad64b2d3.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "assets/Build-44e7ed3a.js": {
+    "file": "assets/Build-44e7ed3a-978e99b8.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_Vision_IMSTable-136a1ca9-ce527cb7.js",
+      "_IconSearch-a226eee4-73f8e550.js",
+      "_globalStyle-ed485bee-3719433e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Build-44e7ed3a.js"
+  },
+  "assets/Dashboard-61db40a9.js": {
+    "file": "assets/Dashboard-61db40a9-e77fe4a1.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_globalStyle-ed485bee-3719433e.js",
+      "_StylishText-56caa9d1-838dbefd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Dashboard-61db40a9.js"
+  },
+  "assets/DesktopAppView-6f26ab52.js": {
+    "dynamicImports": [
+      "assets/Layout-cb77f891.js",
+      "assets/Home-633b3e23.js",
+      "assets/Playground-a8aea07f.js",
+      "assets/Part-b1cca990.js",
+      "assets/Stock-2843c6de.js",
+      "assets/Build-44e7ed3a.js",
+      "assets/Dashboard-61db40a9.js",
+      "assets/ErrorPage-da6fe836.js",
+      "assets/Profile-e6bb185e.js",
+      "assets/NotFound-9c8a1cfa.js",
+      "assets/Login-dc842015.js",
+      "assets/Logged-In-9c3b5b1e.js",
+      "assets/Reset-ea50c094.js",
+      "assets/Set-Password-df41ee43.js"
+    ],
+    "file": "assets/DesktopAppView-6f26ab52-fe364a3c.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/DesktopAppView-6f26ab52.js"
+  },
+  "assets/ErrorPage-da6fe836.js": {
+    "file": "assets/ErrorPage-da6fe836-27d4d836.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/ErrorPage-da6fe836.js"
+  },
+  "assets/Home-633b3e23.js": {
+    "file": "assets/Home-633b3e23-ce2cad36.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_globalStyle-ed485bee-3719433e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Home-633b3e23.js"
+  },
+  "assets/Layout-cb77f891.js": {
+    "file": "assets/Layout-cb77f891-1d2e0a82.js",
+    "imports": [
+      "index.html",
+      "_globalStyle-ed485bee-3719433e.js",
+      "_links-055e87fc-1389477c.js",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js",
+      "_auth-94100680-dd86dcc7.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_IconSearch-a226eee4-73f8e550.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Layout-cb77f891.js"
+  },
+  "assets/Logged-In-9c3b5b1e.js": {
+    "file": "assets/Logged-In-9c3b5b1e-ce081f4b.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_auth-94100680-dd86dcc7.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Logged-In-9c3b5b1e.js"
+  },
+  "assets/Login-dc842015.js": {
+    "file": "assets/Login-dc842015-2411ec1d.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js",
+      "_LanguageSelect-22d9832f-b47202f9.js",
+      "_auth-94100680-dd86dcc7.js",
+      "_use-form-5049279f-ad64b2d3.js",
+      "_IconTrash-0f9cb02d-5e67fec3.js",
+      "_IconEdit-d5d0707d-e9613b1d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Login-dc842015.js"
+  },
+  "assets/MobileAppView-823e692d.js": {
+    "file": "assets/MobileAppView-823e692d-1c3234cc.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_links-055e87fc-1389477c.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/MobileAppView-823e692d.js"
+  },
+  "assets/NotFound-9c8a1cfa.js": {
+    "file": "assets/NotFound-9c8a1cfa-4a3e56eb.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/NotFound-9c8a1cfa.js"
+  },
+  "assets/Part-b1cca990.js": {
+    "file": "assets/Part-b1cca990-9784aac8.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_notifications-507207d9-c05c5d70.js",
+      "_Vision_IMSTable-136a1ca9-ce527cb7.js",
+      "_IconSearch-a226eee4-73f8e550.js",
+      "_globalStyle-ed485bee-3719433e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Part-b1cca990.js"
+  },
+  "assets/Playground-a8aea07f.js": {
+    "file": "assets/Playground-a8aea07f-8ee9d5c0.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_globalStyle-ed485bee-3719433e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Playground-a8aea07f.js"
+  },
+  "assets/Profile-e6bb185e.js": {
+    "file": "assets/Profile-e6bb185e-36522cb2.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_LanguageSelect-22d9832f-b47202f9.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "assets/DesktopAppView-6f26ab52.js",
+      "_globalStyle-ed485bee-3719433e.js",
+      "_use-form-5049279f-ad64b2d3.js",
+      "_IconEdit-d5d0707d-e9613b1d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Profile-e6bb185e.js"
+  },
+  "assets/Reset-ea50c094.js": {
+    "file": "assets/Reset-ea50c094-f15845f0.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_auth-94100680-dd86dcc7.js",
+      "_use-form-5049279f-ad64b2d3.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Reset-ea50c094.js"
+  },
+  "assets/Set-Password-df41ee43.js": {
+    "file": "assets/Set-Password-df41ee43-f148a870.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "assets/DesktopAppView-6f26ab52.js",
+      "_use-form-5049279f-ad64b2d3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Set-Password-df41ee43.js"
+  },
+  "assets/Stock-2843c6de.js": {
+    "file": "assets/Stock-2843c6de-e8767c81.js",
+    "imports": [
+      "index.html",
+      "_BaseContext-b2603304-d1129fb6.js",
+      "_Placeholder-d8632411-711021b4.js",
+      "_StylishText-56caa9d1-838dbefd.js",
+      "_notifications-507207d9-c05c5d70.js",
+      "_Vision_IMSTable-136a1ca9-ce527cb7.js",
+      "_IconEdit-d5d0707d-e9613b1d.js",
+      "_IconTrash-0f9cb02d-5e67fec3.js",
+      "_IconSearch-a226eee4-73f8e550.js",
+      "_globalStyle-ed485bee-3719433e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/Stock-2843c6de.js"
+  },
+  "assets/messages-6b6489fb.js": {
+    "file": "assets/messages-6b6489fb-6b6489fb.js",
+    "isDynamicEntry": true,
+    "src": "assets/messages-6b6489fb.js"
+  },
+  "assets/messages-756f421d.js": {
+    "file": "assets/messages-756f421d-756f421d.js",
+    "isDynamicEntry": true,
+    "src": "assets/messages-756f421d.js"
+  },
+  "assets/messages-abfbc9b0.js": {
+    "file": "assets/messages-abfbc9b0-abfbc9b0.js",
+    "isDynamicEntry": true,
+    "src": "assets/messages-abfbc9b0.js"
+  },
+  "assets/messages-c6f93367.js": {
+    "file": "assets/messages-c6f93367-c6f93367.js",
+    "isDynamicEntry": true,
+    "src": "assets/messages-c6f93367.js"
+  },
+  "assets/vendor-c50a8390.js": {
+    "file": "assets/vendor-c50a8390-2301147a.js",
+    "src": "assets/vendor-c50a8390.js"
+  },
+  "index.html": {
+    "dynamicImports": [
+      "assets/MobileAppView-823e692d.js",
+      "assets/DesktopAppView-6f26ab52.js"
+    ],
+    "file": "assets/index-0d19177e.js",
+    "isEntry": true,
+    "src": "index.html"
+  }
+}

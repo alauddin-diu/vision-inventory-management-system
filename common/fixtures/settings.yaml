@@ -1,0 +1,13 @@
+# Sample settings objects
+
+- model: common.Vision_IMSSetting
+  pk: 1
+  fields:
+    key: Vision_IMS_INSTANCE
+    value: "My very first Vision_IMS Instance"
+
+- model: common.Vision_IMSSetting
+  pk: 2
+  fields:
+    key: Vision_IMS_COMPANY_NAME
+    value: "ACME Pty Ltd"
